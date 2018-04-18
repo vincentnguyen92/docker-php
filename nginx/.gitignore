@@ -1,2 +1,2 @@
-/vhost/*
-!/vhost/default.conf
+vhost/*
+!vhost/default.conf
