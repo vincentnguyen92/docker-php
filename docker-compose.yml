@@ -1,0 +1,46 @@
+version: "3"
+
+services:
+    nginx:
+        build: ./nginx/
+        depends_on:
+            - php
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ./code:/var/www/html
+            - ./nginx/logs:/var/log/nginx
+            - ./nginx/vhost:/etc/nginx/conf.d
+    
+    php:
+        build: ./php/
+        depends_on:
+            - mysql
+            - postgres
+        ports:
+            - 9000:9000
+        volumes:
+            - ./code:/var/www/html
+            - ./php/php.ini:/usr/local/etc/php/php.ini
+
+    mysql:
+        image: mysql
+        restart: always
+        ports:
+            - 3306:3306
+        volumes:
+            - ./BackupDB/mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: demo
+
+    postgres:
+        image: postgres
+        restart: always
+        ports:
+            - 5432:5432
+        volumes:
+            - ./BackupDB/postgres:/var/lib/postgresql/data
+        environment:
+            POSTGRES_PASSWORD: root
+
