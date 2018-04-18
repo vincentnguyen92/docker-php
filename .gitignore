@@ -1,2 +1,1 @@
-*.DS_Store
-BackupDB/postgres/pg_stat_tmp/*
+**/.DS_Store
