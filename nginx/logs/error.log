@@ -1,0 +1,33 @@
+2018/04/19 07:42:30 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/19 07:42:30 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/19 07:42:30 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/19 07:42:30 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/19 08:53:23 [error] 5#5: *80 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot declare class vincent\vAuth\Http\Controller\TestController, because the name is already in use in /var/www/html/crm/packages/vincent/vAuth/src/Http/Controllers/TestController.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: crm.local, request: "GET /test HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "crm.local"
+2018/04/19 08:53:58 [error] 5#5: *80 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot declare class vincent\vAuth\Http\Controller\TestController, because the name is already in use in /var/www/html/crm/packages/vincent/vAuth/src/Http/Controllers/TestController.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: crm.local, request: "GET /test HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "crm.local"
+2018/04/19 08:54:59 [error] 5#5: *80 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot declare class vincent\vAuth\Http\Controller\TestController, because the name is already in use in /var/www/html/crm/packages/vincent/vAuth/src/Http/Controllers/TestController.php on line 13" while reading response header from upstream, client: 172.18.0.1, server: crm.local, request: "GET /test HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "crm.local"
+2018/04/20 02:19:53 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/20 02:19:53 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/20 02:19:53 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/20 02:19:53 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/20 02:40:38 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/20 02:40:38 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/20 02:40:38 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/20 02:40:38 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/20 04:28:01 [error] 7#7: *198 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Request as Request because the name is already in use in /var/www/html/eber-crm/app/Http/Controllers/TaskController.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: eber-crm.local, request: "GET /profile/task HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "eber-crm.local", referrer: "http://eber-crm.local/profiles?status=1"
+2018/04/20 04:28:43 [error] 7#7: *198 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use Request as Request because the name is already in use in /var/www/html/eber-crm/app/Http/Controllers/TaskController.php on line 8" while reading response header from upstream, client: 172.18.0.1, server: eber-crm.local, request: "GET /profile/task HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "eber-crm.local", referrer: "http://eber-crm.local/profiles?status=1"
+2018/04/23 03:35:31 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/23 03:35:31 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/23 03:35:31 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/23 03:35:31 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/24 03:17:39 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/24 03:17:39 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/24 03:17:39 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/24 03:17:39 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/26 09:19:13 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/26 09:19:13 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/26 09:19:13 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/26 09:19:13 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/27 02:19:39 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/27 02:19:39 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
+2018/04/27 02:19:39 [warn] 1#1: conflicting server name "charset" on 0.0.0.0:80, ignored
+2018/04/27 02:19:39 [warn] 1#1: conflicting server name "utf-8" on 0.0.0.0:80, ignored
