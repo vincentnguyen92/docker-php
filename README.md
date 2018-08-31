@@ -1,6 +1,4 @@
-# Project Title
-
-Enviroment PHP Projects
+# Enviroment PHP Projects
 
 ## Getting Started
 
@@ -9,7 +7,7 @@ Using LEMP instead LAMP as usual
 ### Installing
 Using docker composer version 3
 ```
-docker-compose up -d --buil
+docker-compose up -d --build
 ```
 
 ## Built With
@@ -28,10 +26,9 @@ docker-compose up -d --buil
 
 This project is licensed under the MIT License
 
-## Acknowledgments
+## Create Virual Host
 
-* Create Virual Host
-** Clone a file nginx config **default.conf** and edit ***server_name*** and ***root***
+* Clone a file nginx config **default.conf** and edit ***server_name*** and ***root***
 
-* Using mysql instead localhost at config your project file.
+* **Using mysql instead localhost at config your project file.**
 
