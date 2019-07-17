@@ -1,2 +1,3 @@
 vhost/*
 !vhost/default.conf
+!vhost/test.local.conf
